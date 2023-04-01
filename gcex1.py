@@ -1,0 +1,10 @@
+import gc
+print("line 2-->is gc is running:",gc.isenabled())
+print("\n python class")
+print("destructor topic is going on")
+gc.disable()
+print("line 6-->is gc is running:",gc.isenabled())
+print("python is an oop prg lang")
+gc.enable()
+print("line 9-->is gc is running:",gc.isenabled())
+print("bye nandini")
